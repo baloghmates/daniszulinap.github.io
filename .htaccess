@@ -1,0 +1,11 @@
+RewriteEngine on 
+
+ErrorDocument 404 /404/
+
+RewriteCond %{HTTP_HOST} ^www\.(.*) [NC]
+RewriteRule ^(.*)$ http://%1/$1 [R=301,NC,L]
+
+RewriteCond $1 ^[^\.]+[^/]$
+RewriteRule ^([^/]+)/([^/]+)/([^/]+)/$ /index.html?oldal=$1&aloldal=$2&url=$3 [L]
+RewriteRule ^([^/]+)/([^/]+)/$  /index.html?oldal=$1&aloldal=$2 [L]
+RewriteRule ^([^/]+)/$  /index.html?oldal=$1 [L]
