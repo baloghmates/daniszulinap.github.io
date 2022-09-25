@@ -1,0 +1,307 @@
+@font-face {
+    font-family: Karbon;
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/Karbon-Regular.eot");
+    src: url("../fonts/Karbon-Regular.eot?#iefix") format("embedded-opentype"),
+      url("../fonts/Karbon-Regular.svg#Karbon-Regular") format("svg"),
+      url("../fonts/Karbon-Regular.ttf") format("truetype"),
+      url("../fonts/Karbon-Regular.woff") format("woff"),
+      url("../fonts/Karbon-Regular.woff2") format("woff2");
+  }
+  
+  @font-face {
+    font-family: Karbon-Bold;
+    font-style: normal;
+    font-weight: bold;
+    src: url("../fonts/Karbon-Bold.eot");
+    src: url("../fonts/Karbon-Bold.eot?#iefix") format("embedded-opentype"),
+      url("../fonts/Karbon-Bold.svg#Karbon-Bold") format("svg"),
+      url("../fonts/Karbon-Bold.ttf") format("truetype"),
+      url("../fonts/Karbon-Bold.woff") format("woff"),
+      url("../fonts/Karbon-Bold.woff2") format("woff2");
+  }
+  @font-face {
+    font-family: Karbon-Light;
+    font-style: normal;
+    font-weight: light;
+    src: url("../fonts/Karbon-Light.eot");
+    src: url("../fonts/Karbon-Light.eot?#iefix") format("embedded-opentype"),
+      url("../fonts/Karbon-Light.svg#Karbon-Light") format("svg"),
+      url("../fonts/Karbon-Light.ttf") format("truetype"),
+      url("../fonts/Karbon-Light.woff") format("woff"),
+      url("../fonts/Karbon-Light.woff2") format("woff2");
+  }
+  @font-face {
+    font-family: Karbon-Medium;
+    font-style: normal;
+    font-weight: medium;
+    src: url("../fonts/Karbon-Medium.eot");
+    src: url("../fonts/Karbon-Medium.eot?#iefix") format("embedded-opentype"),
+      url("../fonts/Karbon-Medium.svg#Karbon-Medium") format("svg"),
+      url("../fonts/Karbon-Medium.ttf") format("truetype"),
+      url("../fonts/Karbon-Medium.woff") format("woff"),
+      url("../fonts/Karbon-Medium.woff2") format("woff2");
+  }
+  
+  @font-face {
+    font-family: Karbon-Regular;
+    font-style: normal;
+    font-weight: medium;
+    src: url("../fonts/Karbon-Regular.eot");
+    src: url("../fonts/Karbon-Regular.eot?#iefix") format("embedded-opentype"),
+      url("../fonts/Karbon-Regular.svg#Karbon-Medium") format("svg"),
+      url("../fonts/Karbon-Regular.ttf") format("truetype"),
+      url("../fonts/Karbon-Regular.woff") format("woff"),
+      url("../fonts/Karbon-Regular.woff2") format("woff2");
+  }
+
+  ::-webkit-scrollbar {
+    width: 14px;
+    background-color: transparent;
+  }
+
+  ::-webkit-scrollbar-track{
+    background-color: transparent;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    border: 4px solid rgba(0, 0, 0, 0);
+    background-clip: padding-box;
+    border-radius: 9999px;
+    background-color: #AAAAAA;
+  }
+
+  body,html{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(36, 36, 36);
+    color: white;
+  }
+
+  a{
+    text-decoration: none;
+    color: white;
+  }
+
+  .menu{
+    width: 100%;
+    height: 2.5vw;
+    background-color: black;
+    line-height: 2.5vw;
+    -webkit-box-shadow: 0px 2px 15px -9px #ffffff; 
+    box-shadow: 0px 2px 15px -9px #ffffff;
+  }
+
+  .hl{
+    color:  rgb(204, 74, 74);;
+  }
+
+  .content{
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+     box-sizing: border-box; 
+    width: 100%;
+    height: auto;
+    padding-bottom: 2vw;
+  }
+
+  .menuItem{
+    width: auto;
+    float: right;
+
+  }
+
+  .menuText:hover{
+    color: rgb(204, 74, 74);
+    font-size: 1.1vw;
+  }
+
+  .menuText{
+    margin: 0vw;
+    margin-right: 2.5vw;
+    font-size: 1vw;
+    font-family: 'Karbon-Regular';
+    transition-duration: 0.5s;
+  }
+  
+  .cim{
+    font-family: 'Karbon-Regular';
+    font-size: 1vw;
+    text-transform: uppercase;
+    margin-left: 2.5vw;
+  }
+
+  .titlebox{
+    width: 100%;
+    height: auto;
+    text-align: center;
+  }
+
+  .pageTitle{
+    font-size: 2vw;
+    font-family: 'Karbon-Medium';
+    margin-top: 1vw;
+    margin-bottom: 2vw;
+  }
+
+  .programokTabla{
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+     box-sizing: border-box; 
+    width: 45%;
+    margin-left: 2.5%;
+    height: auto;
+    background-color: rgb(36, 36, 36);
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    border-radius: 0.5vw;
+    -webkit-box-shadow: 0px 0px 10px -6px #ffffff; 
+    box-shadow: 0px 0px 10px -6px #ffffff;
+  }
+
+  .ismerteto{
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+     box-sizing: border-box; 
+    width: 45%;
+    float: right;
+    margin-right: 2.5%;
+    height: 15vw;
+    background-color: rgb(36, 36, 36);
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    border-radius: 0.5vw;
+    -webkit-box-shadow: 0px 0px 10px -6px #ffffff; 
+    box-shadow: 0px 0px 10px -6px #ffffff;
+  }
+
+  .ismertetoCim{
+    text-transform: uppercase;
+    font-size: 1.5vw;
+    font-family: 'Karbon-Regular';
+    margin-top: 0.5vw;
+    margin-bottom: 1.5vw;
+  }
+
+  .ismertetoText{
+    font-size: 1vw;
+    font-family: 'Karbon-Regular';
+    margin-top: 0.5vw;
+    margin-bottom: 0.5vw;
+  }
+
+  .idopontbox{
+    float: left;
+    width: 20%;
+    font-size: 1vw;
+    font-family: 'Karbon-Light';
+    text-align: center;
+    line-height: 2vw;
+    height: 2vw;
+    border-radius: 0.5vw 0vw 0vw 0.5vw;
+    background-color: rgb(36, 36, 36);
+  }
+  .gametitlebox{
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+     box-sizing: border-box; 
+    font-size: 1vw;
+    font-family: 'Karbon-Regular';
+    text-align: left;
+    padding-left: 1vw;
+    line-height: 2vw;
+    width: 80%;
+    float: right;
+    height: 2vw;
+    border-radius: 0vw 0.5vw 0.5vw 0vw;
+    background-color: rgb(0, 0, 0);
+  }
+
+  .egyProgram{
+    width: 100%;
+    border-radius: 0.5vw;
+    background-color: rgb(255, 255, 255);
+    height: 2vw;
+    -webkit-box-shadow: 0px 0px 15px -6px #ffffff; 
+    box-shadow: 0px 0px 15px -6px #ffffff;
+    margin-bottom: 2.5vw;
+    margin-top: 2.5vw;
+  }
+
+  .egyReszvevo{
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+     box-sizing: border-box; 
+    width: 60%;
+    position: relative;
+    height: auto;
+    float: left;
+    margin-left: 20%;
+    -webkit-box-shadow: 0px 0px 15px -6px #ffffff; 
+    box-shadow: 0px 0px 15px -6px #ffffff;
+    border-radius: 0.5vw;
+    padding: 0.5vw;
+    margin-bottom: 2.5vw;
+  }
+
+  .resztvevoPics{
+    -webkit-box-shadow: 0px 0px 10px -6px #ffffff; 
+    box-shadow: 0px 0px 10px -6px #ffffff;
+    position: relative;
+    width: 10vw;
+    float: left;
+  }
+
+  .resztvevoNev{
+    font-family: 'Karbon-Bold';
+  }
+
+  .resztvevoTextContainer{
+    font-family: 'Karbon-Regular';
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+     box-sizing: border-box; 
+    font-size: 1vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    text-align: center;
+    width: 48.5vw;
+    height: auto;
+    float: right;
+  }
+
+  .hogyanCsatlakozzContainer{
+    text-align: center;
+  }
+
+  .csatlakozzText{
+    font-size: 1vw;
+    font-family: 'Karbon-Regular';
+
+  }
+
+  .discordContainer{
+    margin-top: 3vw;
+    font-size: 1vw;
+    font-family: 'Karbon-Bold';
+    text-align: center;
+    width: 50%;
+    height: auto;
+    margin-left: 25%;
+  }
+
+  .dclogo{
+    width: 30%;
+  }
+  
+@media screen and (max-width: 900px) and (orientation: portrait) {
+  
+}
+
+@media screen and (max-height: 900px) and (orientation: landscape) {
+}
